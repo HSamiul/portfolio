@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-color: #1c1c1e;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#brand {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: lighter;
+}
+
+#nav {
+  float: right;
+}
+#nav ul {
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+#nav li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+#nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#intro {
+  text-align: center;
+}
+#intro img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 10%;
+  border-radius: 50%;
+  padding: 1rem;
+}
+#intro p {
+  display: inline-block;
+}
+
+#projects {
+  background-color: rgba(255, 255, 255, 0.025);
+  margin: 2.5rem 15rem;
+  height: auto;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.project {
+  background-color: rgba(255, 255, 255, 0.0375);
+  margin: 2rem;
+  padding: 0.5rem 2rem;
+  height: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.top-slide {
+  animation: top-slide 1s ease-out;
+}
+
+@keyframes top-slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.left-slide {
+  animation: left-slide 1s ease-out;
+}
+
+@keyframes left-slide {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  animation: typewriter 1s linear, caret 1s step-end infinite;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0rem;
+  }
+  100% {
+    width: 12rem;
+  }
+}
+@keyframes caret {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 165, 80, 0.8);
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
