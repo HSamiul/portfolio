@@ -65,20 +65,36 @@ body {
     padding: 0.5rem 2rem;
     overflow: auto;
     height: auto;
-    width: 50%;
+    width: fit-content;
     border-radius: 15px;
 }
 
 #Chirp {
     background-color: rgba(0, 170, 240, 0.75);
+
     img {
+        display: inline-block;
         vertical-align: middle;
-        width: 10%;
-        border-radius: 50%;
+        width: 5rem;
+    }
+
+    p {
+        display: inline-block;
     }
 }
 #Lariat {
     background-color: rgba(50, 205, 50, 0.75);
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 0.5rem;
+        width: 5rem;
+    }
+
+    p {
+        display: inline-block;
+    }
 }
 
 #tbd {
