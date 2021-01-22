@@ -4,6 +4,10 @@ body {
     background-color: rgb(28, 28, 30);
     color: rgb(255, 255, 255);
     font-family: 'Ubuntu', sans-serif;
+
+    background-image: radial-gradient(#212121 20%, transparent 20%); // make a circle
+    background-size: 20px 20px; //  circle is this size
+    background-repeat: repeat; // repeat making  circle
 }
 
 #brand {
@@ -39,7 +43,7 @@ body {
         vertical-align: middle;
         max-width: 10%;
         border-radius: 50%;
-        padding: 1rem;
+        padding: 0rem;
     }
 
     p {
@@ -48,7 +52,7 @@ body {
 }
 
 #projects {
-    background-color:rgba(255, 255, 255, 0.025);
+    background-color:rgb(33,33,35);
     border-width: 1px;
     border-style:ridge;
     border-color: rgba(255, 255, 255, 0.1);
