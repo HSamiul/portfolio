@@ -104,6 +104,17 @@ body {
 
 #tbd {
     background-color: rgba(250, 120, 30, 0.75);
+
+    img{
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 0.5rem;
+        width: 2.5rem;
+    }
+
+    p {
+        display: inline-block;
+    }
 }
 
 .top-slide {
