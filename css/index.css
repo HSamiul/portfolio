@@ -32,6 +32,15 @@ body {
 
 #dropdown {
   display: none;
+  float: right;
+  padding: 2.25rem 2rem;
+}
+#dropdown a {
+  display: inline-block;
+  padding: 0 0 0 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 #intro {
@@ -174,7 +183,7 @@ body {
   }
 
   #dropdown {
-    background-color: blue;
+    display: inline-block;
   }
 
   #projects {
