@@ -190,6 +190,9 @@ body {
     
     #intro {
         width: 100%;
+        display:grid; // only option that centers in Chrome
+        p {
+        }
 
         img {
             display: none;
