@@ -32,15 +32,16 @@ body {
 
 #dropdown {
   display: none;
+  color: rgba(0, 0, 0, 0);
   float: right;
   padding: 2.25rem 2rem;
 }
 #dropdown a {
   display: inline-block;
+  color: rgba(0, 0, 0, 0);
   padding: 0 0 0 1rem;
   font-size: 1.5rem;
   text-decoration: none;
-  color: inherit;
 }
 
 #intro {
@@ -177,17 +178,24 @@ body {
     border-color: transparent;
   }
 }
-@media screen and (max-width: 800px), screen and (-webkit-width: 800px) {
+@media screen and (max-width: 800px), screen and (-webkit-max-width: 800px) {
   #nav {
     display: none;
   }
 
   #dropdown {
     display: inline-block;
+    color: inherit;
+  }
+  #dropdown a {
+    color: inherit;
   }
 
   #intro {
     width: 100%;
+  }
+  #intro img {
+    display: none;
   }
 
   #projects {
