@@ -16,6 +16,7 @@ body {
 
 #nav {
   float: right;
+  padding: 0.75rem;
 }
 #nav ul {
   padding: 1rem 2rem;
@@ -46,6 +47,7 @@ body {
 
 #intro {
   text-align: center;
+  padding: 1rem 0;
 }
 #intro img {
   display: inline-block;
@@ -63,7 +65,7 @@ body {
   border-width: 1px;
   border-style: ridge;
   border-color: rgba(255, 255, 255, 0.1);
-  margin: 2.5rem 15rem;
+  margin: 2.5rem 20%;
   padding: 1rem;
   height: auto;
   overflow: auto;
@@ -194,6 +196,9 @@ body {
   #intro {
     width: 100%;
     display: grid;
+  }
+  #intro .typewriter {
+    animation: top-slide 1s ease-out, caret 1s step-end infinite;
   }
   #intro img {
     display: none;
