@@ -210,6 +210,9 @@ body {
     margin: 0;
     padding: 0;
   }
+  #projects #Lariat img {
+    padding-top: 1rem;
+  }
 
   .project {
     width: auto;
